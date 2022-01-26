@@ -1,5 +1,6 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 import { Employee } from './employee';
 import { EmployeeService } from './employee.service';
 
@@ -42,6 +43,18 @@ export class AppComponent implements OnInit{
     );
   }
 
+  public onAddEmployee(addForm : NgForm): void {
+    document.getElementById('add-employee-form')?.click();
+    this.employeeService.addEmployee(addForm.value).subscribe(
+      {
+        next: (response: Employee) => {
+          console.log(response);
+          this.getEmployees();
+        },
+        error: (error: HttpErrorResponse) => {alert(error.message);}
+      }
+    );
+  }
 
   // The | null allows null parameter instead of the object employee
   public onOpenModal(employee: Employee | null, mode: string): void{
