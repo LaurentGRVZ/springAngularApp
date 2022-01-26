@@ -7,6 +7,7 @@
 <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
 </div>
 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
 
 This application uses the Restful Java API. It works but is not yet complete.
