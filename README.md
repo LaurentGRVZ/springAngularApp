@@ -10,7 +10,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1 and Bootstrap 5.
 
-This application uses the Restful Java API. It works but is not yet complete.
+This application uses the Restful Java API (webApiRestfulWithSpringBoot). 
 
 ## Author :man_technologist:
 
