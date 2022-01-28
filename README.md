@@ -6,9 +6,9 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
 </div>
+<br>
 
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1 and Bootstrap 5.
 
 This application uses the Restful Java API. It works but is not yet complete.
 
